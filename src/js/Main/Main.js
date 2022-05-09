@@ -1,17 +1,11 @@
-import Stories from "./Stories";
-import Posts from "./Posts";
+import Esquerda from "./Esquerda"
 import Sidebar from "./Sidebar";
 
 export default function Main(){
     return(
-        <main>
-            <div class="container">
-                <div class="container-center">
-                    <Stories />
-                    <Posts />
-                </div>
+        <div class="corpo">
+                <Esquerda />
                 <Sidebar />
-            </div>
-        </main>
+        </div>
     );
 }

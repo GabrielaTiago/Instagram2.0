@@ -1,34 +1,84 @@
-export default function Posts(){
-    return (
-        <div class="coluna-posts">
+export default function Posts (){
+    return(
+        <div class="posts">
             <div class="post">
-                <div class="post-parte-superior">
-                    <div class="dados-perfil">
-                        <img class="foto-perfil" src="/imagens/beyonce-perfil.jpg"/>
-                        <div class="post-nome-perfil"><p>Beyoncé</p></div>
-                    </div>
-                    <div class="icone-opcoes">
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
+            <div class="topo">
+                <div class="usuario">
+                <img src="assets/img/meowed.svg" />
+                meowed
                 </div>
-                <img class="foto-principal" src="/imagens/beyonce1.jpg"/>
-                <div class="post-inferior">
-                    <div class="icones-post-inferiores">
-                        <div class="icones-esquerda">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
-                        </div>
-                        <div class="icones-direita">
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                    </div>
-                    <div class="curtidas">
-                        <img class="foto-perfil-usuario" src="/imagens/eu.jpg"/>
-                        <div class="informacoes-curtidas">Curtido por <strong>gabs_tiago</strong> e <strong>outras 3.278.690 pessoas</strong></div>
-                    </div>
+                <div class="acoes">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
+            </div>
+
+            <div class="conteudo">
+                <img src="assets/img/gato-telefone.svg" />
+            </div>
+
+            <div class="fundo">
+                <div class="acoes">
+                <div>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                </div>
+
+                <div class="curtidas">
+                <img src="assets/img/respondeai.svg" />
+                <div class="texto">
+                    Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="post">
+            <div class="topo">
+                <div class="usuario">
+                <img src="assets/img/barked.svg" />
+                barked
+                </div>
+                <div class="acoes">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </div>
+            </div>
+
+            <div class="conteudo">
+                <img src="assets/img/dog.svg" />
+            </div>
+
+            <div class="fundo">
+                <div class="acoes">
+                <div>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                </div>
+
+                <div class="curtidas">
+                <img src="assets/img/adorable_animals.svg" />
+                <div class="texto">
+                    Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
+                </div>
+                </div>
+            </div>
             </div>
         </div>
     );
 }
+
+const postTop = [
+    {user: "meowed", image: "assets/img/meowed.svg"},
+    {user: "barked", image: "assets/img/barked.svg"}
+];
+
+const ionIcon = ["heart-outline", "chatbubble-outline", "paper-plane-outline"];

@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <div class="bottom-menu">
+        <div class="fundo-mobile">
             <ion-icon name="home"></ion-icon>
             <ion-icon name="search-outline"></ion-icon>
             <ion-icon name="add-circle-outline"></ion-icon>
