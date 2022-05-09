@@ -1,11 +1,10 @@
-import Stories from "./Stories"
+import StoriesData from "./StoriesData"
 import Posts from "./Posts"
-import Sidebar from "./Sidebar";
 
 export default function Esquerda(){
     return(
         <div class="esquerda">
-            <Stories />
+            <StoriesData />
             <Posts />
         </div>
     );
