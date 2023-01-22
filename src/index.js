@@ -1,17 +1,20 @@
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom";
 
-import Header from "./js/Header/Header";
-import Main from "./js/Main/Main";
-import Footer from './js/Footer/Footer';
+import "./styles/reset.css";
+import "./styles/styles.css"
 
-function App(){
-    return(
-        <div>
-            <Header />
-            <Main />
-            <Footer />
-        </div>      
-    );
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.querySelector(".root"));
