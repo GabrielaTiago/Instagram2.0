@@ -1,11 +1,11 @@
-import StoriesData from "./StoriesData"
-import Posts from "./Posts"
+import { AllPosts } from "../Posts";
+import StoriesData from "./StoriesData";
 
-export default function Esquerda(){
-    return(
-        <div class="esquerda">
-            <StoriesData />
-            <Posts />
-        </div>
-    );
+export default function Esquerda() {
+  return (
+    <div class="esquerda">
+      <StoriesData />
+      <AllPosts />
+    </div>
+  );
 }
