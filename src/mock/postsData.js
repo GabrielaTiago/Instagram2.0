@@ -12,6 +12,13 @@ export const postData = [
     userPost: imgPost1,
     pictureLiked: userLiked1,
     whoLiked: "respondeai",
+    numberOfLikes: 99.159,
+    postCaption: "#Connected",
+    numberOfComments: 3.245,
+    comments: [
+      { userName: "barked", comment: "Difícil não dar uma espiadinha" },
+      { userName: "adorable_animals", comment: "Perfect picture!" },
+    ],
   },
   {
     userName: "barked",
@@ -19,11 +26,12 @@ export const postData = [
     userPost: imgPost2,
     pictureLiked: userLiked2,
     whoLiked: "adorable_animals",
+    numberOfLikes: 44.831,
+    postCaption: "Soninnho gostoso",
+    numberOfComments: 3.245,
+    comments: [
+      { userName: "meowed", comment: "Que coisa mais fofa!!" },
+      { userName: "adorable_animals", comment: "Sooo cute!" },
+    ],
   },
-];
-
-export const ionIcon = [
-  "heart-outline",
-  "chatbubble-outline",
-  "paper-plane-outline",
 ];
