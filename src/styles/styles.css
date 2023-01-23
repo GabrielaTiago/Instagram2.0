@@ -224,7 +224,7 @@ body {
 
 .ver-comentarios,
 .input-comentario::placeholder,
-.like-comentario-icon,
+.comentario-box ion-icon,
 .comentario-icon {
   color: #8e8e8e;
 }
@@ -246,7 +246,7 @@ body {
   max-height: 32px;
 }
 
-.like-comentario-icon,
+.comentario-box ion-icon,
 .comentario-icon {
   width: 13px;
   height: 13px;
