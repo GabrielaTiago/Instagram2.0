@@ -1,11 +1,12 @@
 import ReactDOM from "react-dom";
 
 import "./styles/reset.css";
-import "./styles/styles.css"
+import "./styles/styles.css";
 
-import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
+import { Header } from "./components";
+
 
 function App() {
   return (
