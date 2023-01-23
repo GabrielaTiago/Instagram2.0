@@ -3,8 +3,8 @@ import { Profile } from "./Profile";
 
 export function AllProfileSuggestions() {
   return (
-    <div class="sugestoes">
-      <div class="titulo">
+    <div className="sugestoes">
+      <div className="titulo">
         Sugestões para você
         <div>Ver tudo</div>
       </div>
