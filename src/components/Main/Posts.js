@@ -1,21 +1,6 @@
-export default function Posts(props) {
-  const postData = [
-    {
-      userName: "meowed",
-      userImage: "../../assets/img/users/meowed.svg",
-      userPost: "../../assets/img/posts/gato-telefone.svg",
-      pictureLiked: "../../assets/img/users/respondeai.svg",
-      whoLiked: "respondeai",
-    },
-    {
-      userName: "barked",
-      userImage: "../../assets/img/users/barked.svg",
-      userPost: "../../assets/img/posts/dog.svg",
-      pictureLiked: "../../assets/img/users/adorable_animals.svg",
-      whoLiked: "adorable_animals",
-    },
-  ];
+import { postData, ionIcon } from "../../mock";
 
+export default function Posts(props) {
   return (
     <div class="posts">
       {postData.map((data) => (
@@ -28,6 +13,7 @@ export default function Posts(props) {
     </div>
   );
 }
+
 function Topo(props) {
   return (
     <div class="topo">
@@ -51,12 +37,6 @@ function Conteudo(props) {
 }
 
 function Fundo(props) {
-  const ionIcon = [
-    "heart-outline",
-    "chatbubble-outline",
-    "paper-plane-outline",
-  ];
-
   return (
     <div class="fundo">
       <div class="acoes">
