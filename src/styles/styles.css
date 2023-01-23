@@ -185,10 +185,16 @@ body {
   width: 100%;
 }
 
+.post .fundo {
+  padding: 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .post .fundo .acoes {
   display: flex;
   justify-content: space-between;
-  padding: 13px 16px;
   font-size: 24px;
 }
 
@@ -199,7 +205,6 @@ body {
 .post .fundo .curtidas {
   display: flex;
   align-items: center;
-  padding: 0 16px 13px;
   font-weight: 300;
 }
 
@@ -209,6 +214,61 @@ body {
   margin-right: 10px;
 }
 
+.legenda {
+  width: 100%;
+  max-height: 65px;
+  word-break: break-all;
+  overflow: hidden;
+  position: relative;
+}
+
+.ver-comentarios,
+.input-comentario::placeholder,
+.like-comentario-icon,
+.comentario-icon {
+  color: #8e8e8e;
+}
+
+.comentarios {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comentario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comentario {
+  width: 100%;
+  max-height: 32px;
+}
+
+.like-comentario-icon,
+.comentario-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.enviar-comentario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-comentario {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.input-comentario:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
 .post:last-child {
   margin-bottom: 18px;
 }
@@ -216,8 +276,9 @@ body {
 .sidebar {
   width: 293px;
   padding-top: 24px;
-  position: sticky;
+  position: fixed;
   top: 88px;
+  right: calc(50% - 467.5px);
 }
 
 .sidebar > .usuario {
