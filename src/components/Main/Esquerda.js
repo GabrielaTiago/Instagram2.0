@@ -1,10 +1,10 @@
 import { AllPosts } from "../Posts";
-import StoriesData from "./StoriesData";
+import { Stories } from "../Stories";
 
 export default function Esquerda() {
   return (
     <div class="esquerda">
-      <StoriesData />
+      <Stories />
       <AllPosts />
     </div>
   );
