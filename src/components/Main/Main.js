@@ -1,4 +1,4 @@
-import { Sidebar } from "../Sidebar";
+import { Sidebar } from "../Sidebar/Sidebar";
 import Esquerda from "./Esquerda";
 
 export default function Main() {
