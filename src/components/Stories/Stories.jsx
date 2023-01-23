@@ -1,4 +1,3 @@
-import React from "react";
 import { storiesData } from "../../mock";
 import { Story } from "../Stories/Story";
 

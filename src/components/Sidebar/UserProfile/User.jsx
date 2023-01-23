@@ -1,5 +1,3 @@
-import React from "react";
-
 export function User({ name, userName, userImage }) {
   return (
     <div className="usuario">

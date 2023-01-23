@@ -1,4 +1,3 @@
-import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Home } from "../pages";
 
@@ -7,7 +6,7 @@ export function AppRoutes() {
     <Routes>
       <Route path="/" element={<Home />} />
 
-      <Route path='*' element={<Navigate to={'/'} />} />
+      <Route path="*" element={<Navigate to={"/"} />} />
     </Routes>
   );
 }

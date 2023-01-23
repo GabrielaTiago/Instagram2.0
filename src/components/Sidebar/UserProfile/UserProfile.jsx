@@ -1,4 +1,3 @@
-import React from "react";
 import { userData } from "../../../mock";
 import { User } from "./User";
 

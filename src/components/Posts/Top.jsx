@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Top({ userName, userImage }) {
   return (
     <div className="topo">
