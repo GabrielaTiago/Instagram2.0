@@ -1,4 +1,3 @@
-import React from "react";
 import { References } from "./References/References";
 import { AllProfileSuggestions } from "./SuggestedProfiles/AllProfileSuggestions";
 import { UserProfile } from "./UserProfile/UserProfile";

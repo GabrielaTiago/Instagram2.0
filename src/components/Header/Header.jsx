@@ -1,4 +1,3 @@
-import React from "react";
 import { Icons } from "./Icons";
 import { Logos } from "./Logos";
 import { SearchBar } from "./SearchBar";
