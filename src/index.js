@@ -3,16 +3,14 @@ import ReactDOM from "react-dom";
 import "./styles/reset.css";
 import "./styles/styles.css";
 
-import Main from "./components/Main/Main";
-import { Footer, Header } from "./components";
+import { AppRoutes } from "./routes";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 
