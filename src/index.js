@@ -4,17 +4,15 @@ import "./styles/reset.css";
 import "./styles/styles.css";
 
 import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
-import { Header } from "./components";
-
+import { Footer, Header } from "./components";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Main />
       <Footer />
-    </div>
+    </>
   );
 }
 
