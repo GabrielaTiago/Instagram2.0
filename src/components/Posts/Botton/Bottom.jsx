@@ -1,4 +1,4 @@
-import { Actions } from "./Actions";
+import { Actions } from "./Actions/Actions";
 import { Likes } from "./Likes";
 
 export function Bottom({ pictureLiked, whoLiked }) {
