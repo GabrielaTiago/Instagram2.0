@@ -1,11 +1,11 @@
 export function Top({ userName, userImage }) {
   return (
-    <div class="topo">
-      <div class="usuario">
+    <div className="topo">
+      <div className="usuario">
         <img src={userImage} alt="foto do usuário" />
         {userName}
       </div>
-      <div class="acoes">
+      <div className="acoes">
         <ion-icon name="ellipsis-horizontal"></ion-icon>
       </div>
     </div>

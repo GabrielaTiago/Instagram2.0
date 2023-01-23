@@ -4,7 +4,7 @@ import { UserProfile } from "./UserProfile/UserProfile";
 
 export function Sidebar() {
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <UserProfile />
       <AllProfileSuggestions />
       <References />

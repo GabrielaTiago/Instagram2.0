@@ -1,8 +1,8 @@
 export function User({ name, userName, userImage }) {
   return (
-    <div class="usuario">
+    <div className="usuario">
       <img src={userImage} alt="foto do usuário" />
-      <div class="texto">
+      <div className="texto">
         <strong>{name}</strong>
         {userName}
       </div>

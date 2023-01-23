@@ -4,8 +4,8 @@ import { SearchBar } from "./SearchBar";
 
 export function Header() {
   return (
-    <div class="navbar">
-      <div class="container">
+    <div className="navbar">
+      <div className="container">
         <Logos />
         <SearchBar />
         <Icons />

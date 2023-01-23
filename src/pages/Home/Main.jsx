@@ -3,7 +3,7 @@ import { Feed } from "./Feed";
 
 export function Main() {
   return (
-    <div class="corpo">
+    <div className="corpo">
       <Feed />
       <Sidebar />
     </div>

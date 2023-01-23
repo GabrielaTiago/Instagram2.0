@@ -3,7 +3,7 @@ import { Likes } from "./Likes";
 
 export function Bottom({ pictureLiked, whoLiked }) {
   return (
-    <div class="fundo">
+    <div className="fundo">
       <Actions />
       <Likes pictureLiked={pictureLiked} whoLiked={whoLiked} />
     </div>

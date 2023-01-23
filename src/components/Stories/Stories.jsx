@@ -3,13 +3,13 @@ import { Story } from "../Stories/Story";
 
 export function Stories() {
   return (
-    <div class="stories">
+    <div className="stories">
       {storiesData.map((data) => {
         const { user, image } = data;
 
         return <Story key={user} user={user} image={image} />;
       })}
-      <div class="setinha">
+      <div className="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div>
