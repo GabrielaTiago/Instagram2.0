@@ -1,3 +1,4 @@
+import React from "react";
 import { Actions } from "./Actions/Actions";
 import { Likes } from "./Likes";
 

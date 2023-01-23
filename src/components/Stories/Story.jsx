@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Story({ user, image }) {
   return (
     <div className="story">

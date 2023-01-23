@@ -1,3 +1,5 @@
+import React from "react";
+
 export function References() {
   return (
     <div className="referencias">

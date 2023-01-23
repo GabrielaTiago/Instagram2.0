@@ -1,3 +1,4 @@
+import React from "react";
 import { postData } from "../../mock";
 import { Bottom } from "./Botton/Bottom";
 import { Content } from "./Content";

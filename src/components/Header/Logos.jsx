@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "../../assets/images/logos/logo.png";
 
 export function Logos() {

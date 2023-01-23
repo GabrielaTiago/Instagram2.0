@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Profile({ userName, userImage, reason }) {
   return (
     <div className="sugestao">

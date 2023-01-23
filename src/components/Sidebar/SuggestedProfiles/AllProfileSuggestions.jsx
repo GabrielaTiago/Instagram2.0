@@ -1,3 +1,4 @@
+import React from "react";
 import { suggestedProfilesData } from "../../../mock";
 import { Profile } from "./Profile";
 

@@ -1,3 +1,4 @@
+import React from "react";
 export function Likes({ pictureLiked, whoLiked }) {
   return (
     <div className="curtidas">

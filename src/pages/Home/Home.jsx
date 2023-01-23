@@ -1,3 +1,4 @@
+import React from "react";
 import { Footer, Header } from "../../components";
 import { Main } from "./Main";
 

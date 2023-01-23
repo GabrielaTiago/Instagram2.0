@@ -1,3 +1,4 @@
+import React from "react";
 import { useLike } from "../../../../hooks";
 
 export function Like() {
