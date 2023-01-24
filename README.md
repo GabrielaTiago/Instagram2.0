@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src="public/favicon.ico" height="80px"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <p align="center">Instagram 2.0</p>
 
-## Available Scripts
+#### <p align = "center">Inspiração da rede social Instagram</p>
 
-In the project directory, you can run:
+<p align = "center" >
 
-### `npm start`
+   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"  height="30px"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"  height="30px"/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  height="30px"/>
 
-### `npm test`
+   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"  height="30px"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"  height="30px"/>
+</p>
 
-### `npm run build`
+$~$
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :clipboard: Descrição
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto é um clone da rede social [Instagram](https://www.instagram.com). Foi desenvolvido a partir dos arquivos base disponibilizados (instagram.zip), construiu-se todo o layout, utilizando o React.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Neste projeto, é possível visualizar os posts disponíveis no feed do usuário, curtindo posts e seus comentários, com uma interface semelhante à do site original.
 
-### `npm run eject`
+#### #️⃣ [Acesse aqui](https://instagram2-0-lovat.vercel.app)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :rocket: Rodando localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app), portanto, certifique-se de ter a última versão estável do [Node.js](https://nodejs.org/en/download) e [npm](https://www.npmjs.com/) rodando localmente.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Primeiro de tudo, clone este projeto ou faça o download do ZIP.
 
-## Learn More
+Para realizar o clone, no terminal de sua máquina, insira o seguinte comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+    git clone git@github.com:GabrielaTiago/Instagram2.0.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Entre na pasta do projeto
 
-### Code Splitting
+```bash
+    cd Instagram2.0
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Execute o seguinte comando para instalar as dependências.
 
-### Analyzing the Bundle Size
+```bash
+    npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Depois de instalar as dependências, execute o comando para iniciar a aplicação.
 
-### Making a Progressive Web App
+```bash
+    npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+A aplicação será iniciada em "http://localhost:3000" no seu navegador.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### :computer: Telas
 
-### Deployment
+##### Desktop:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![viewing the app on a large screen](screens/large.png)
 
-### `npm run build` fails to minify
+##### Tablet:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![viewing the app on a medium screen](screens/medium.png)
+
+##### Mobile:
+
+![viewing the app on a mobile screen](screens/mobile.png)
+
+---
+
+### 🎮 Usando
+
+![viewing the app on a large screen](screens/large-screen.gif)
+
+---
+
+### :books: Lições Aprendidas
+
+- React
+- JSX
+- Componentização
+- React Fragment
+- Import e Exports
+- onClick
+- useState
+- Ciclo de vida
+- Virtual DOM
+- Custom Hooks
+
+---
+
+### :bulb: Reconhecimentos
+
+- [Badges para Github](https://github.com/alexandresanlim/Badges4-README.md-Profile#-database-)
+- [README Inspiração de README](https://gist.github.com/luanalessa/7f98467a5ed62d00dcbde67d4556a1e4#file-readme-md)
+- [Driven Education](https://www.driven.com.br)
+
+---
+
+### 👩‍🦱 Autora
+
+- Gabriela Tiago é uma aluna de desenvolvimento web de Fullstack na Driven Education. Percorrendo o caminho do conhecimento, buscando aprimorar suas habilidades técnicas e de softskills, para que ela possa melhorar o trabalho que desenvolve.
+
+<br>[🔝 De volta ao topo](#instagram-20)<br>
