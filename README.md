@@ -1,37 +1,26 @@
-<p align="center">
-    <img src="public/favicon.ico" height="80px"/>
-</p>
+<p align="center"><img src="public/favicon.ico" height="80px"/></p>
 
 # <p align="center">Instagram 2.0</p>
 
-#### <p align = "center">Inspiração da rede social Instagram</p>
+### <p align = "center">Inspiração da rede social Instagram</p>
 
 <p align = "center" >
-
    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"  height="30px"/>
-
    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"  height="30px"/>
-
    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  height="30px"/>
-
    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"  height="30px"/>
-
    <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"  height="30px"/>
 </p>
 
-$~$
-
-### :clipboard: Descrição
+## :clipboard: Descrição
 
 Este projeto é um clone da rede social [Instagram](https://www.instagram.com). Foi desenvolvido a partir dos arquivos base disponibilizados (instagram.zip), construiu-se todo o layout, utilizando o React.
 
 Neste projeto, é possível visualizar os posts disponíveis no feed do usuário, curtindo posts e seus comentários, com uma interface semelhante à do site original.
 
-#### #️⃣ [Acesse aqui](https://instagram2-0-lovat.vercel.app)
+#️⃣ [**Acesse aqui**](https://instagram2-0-lovat.vercel.app)
 
----
-
-### :rocket: Rodando localmente
+## :rocket: Rodando localmente
 
 Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app), portanto, certifique-se de ter a última versão estável do [Node.js](https://nodejs.org/en/download) e [npm](https://www.npmjs.com/) rodando localmente.
 
@@ -61,33 +50,27 @@ Depois de instalar as dependências, execute o comando para iniciar a aplicaçã
     npm run start
 ```
 
-A aplicação será iniciada em "http://localhost:3000" no seu navegador.
+A aplicação será iniciada em `http://localhost:3000` no seu navegador.
 
----
+## :computer: Telas
 
-### :computer: Telas
+### Desktop
 
-##### Desktop:
+![app view on a large screen](screens/large.png)
 
-![viewing the app on a large screen](screens/large.png)
+### Tablet
 
-##### Tablet:
+![app view on a medium screen](screens/medium.png)
 
-![viewing the app on a medium screen](screens/medium.png)
+### Mobile
 
-##### Mobile:
+![app view on a mobile screen](screens/mobile.png)
 
-![viewing the app on a mobile screen](screens/mobile.png)
+## 🎮 Usando
 
----
+![using the app on a large screen](screens/large-screen.gif)
 
-### 🎮 Usando
-
-![viewing the app on a large screen](screens/large-screen.gif)
-
----
-
-### :books: Lições Aprendidas
+## :books: Lições Aprendidas
 
 - React
 - JSX
@@ -100,18 +83,24 @@ A aplicação será iniciada em "http://localhost:3000" no seu navegador.
 - Virtual DOM
 - Custom Hooks
 
----
-
-### :bulb: Reconhecimentos
+## :bulb: Reconhecimentos
 
 - [Badges para Github](https://github.com/alexandresanlim/Badges4-README.md-Profile#-database-)
-- [README Inspiração de README](https://gist.github.com/luanalessa/7f98467a5ed62d00dcbde67d4556a1e4#file-readme-md)
+- [Inspiração de README](https://gist.github.com/luanalessa/7f98467a5ed62d00dcbde67d4556a1e4#file-readme-md)
 - [Driven Education](https://www.driven.com.br)
 
----
+## :muscle: Contribuição
 
-### 👩‍🦱 Autora
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, abra uma *issue* ou envie um *pull request*.
 
-- Gabriela Tiago é uma aluna de desenvolvimento web de Fullstack na Driven Education. Percorrendo o caminho do conhecimento, buscando aprimorar suas habilidades técnicas e de softskills, para que ela possa melhorar o trabalho que desenvolve.
+## :woman_technologist: Autora
 
-<br>[🔝 De volta ao topo](#instagram-20)<br>
+Gabriela Tiago de Araújo
+
+- email: <gabrielatiagodearaujo@outlook.com>
+- linkedin: <https://www.linkedin.com/in/gabrielatiago/>
+- portfolio: <https://gabrielatiago.vercel.app>
+
+$~$
+
+[🔝 De volta ao topo](#instagram-20)
